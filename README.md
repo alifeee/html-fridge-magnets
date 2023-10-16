@@ -1,14 +1,10 @@
 # HTML Fridge Magnets
 
-[Inspiration](https://nonnullish.pages.dev/posts/handwritten-websites/)
+[inspiration](https://nonnullish.pages.dev/posts/handwritten-websites/)
 
-You know Poetry fridge magnets?
+HTML fridge magnets!
 
-![Picture of poetry fridge magnets. Basically many small magnets, each with a word.](images/poetry-fridge-magnets.png)
-
-What if instead of words, they were HTML tags?
-
-We could make our own with magnetic paper.
+![Fridge magnets with HTML fragments](images/magnets.png)
 
 ## Magnetic paper
 
@@ -20,4 +16,18 @@ I use an inkjet printer, as that's what the provider of the paper suggests.
 
 ## Cutting
 
-I use either a hand-guillotine or an automatic cutter.
+I used a manual hand-guillotine.
+
+## Setup (simple)
+
+Print [`print.pdf`](./print.pdf) and cut it out.
+
+![Three white pages, with HTML elements organised across them.](images/print_preview.png)
+
+## Setup (complex)
+
+Edit which tags are included in [`magnets.txt`](./magnets.txt). This is a CSV file with `£` as the delimiter.
+
+Generate an SVG file with [`make.py`](./make.py). It will be organised in columns by number of characters.
+
+Use an SVG editing software (e.g., [Inkscape](https://inkscape.org/)) to organise the tags onto A4 pages, as I did above.
